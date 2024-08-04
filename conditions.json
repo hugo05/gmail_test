@@ -1,0 +1,22 @@
+{
+    "conditions": [
+        {
+            "get_conditions": {
+                "all": true,
+                "date": {
+                    "predicate": ">=",
+                    "unit_val": "2",
+                    "unit": "day"
+                }  
+            },
+            "modification": {
+                "read_unread": {
+                    "mark_read": true
+                },
+                "move": {
+                    "destination": "testing"
+                }
+            }  
+        }
+    ]
+}
