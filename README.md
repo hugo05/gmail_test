@@ -1,6 +1,27 @@
-How to run:
-1. Follow the steps given in the link - https://developers.google.com/gmail/api/quickstart/python to configure oAuth for your client(email address you wish to use)
-2. Store credentials in credentials.json
-3. Run the 2 scripts:
-  3.a python3 fetch_emails.py
-  3.b python3 email_processing.py
+
+
+Gmail API Email Processing
+This project demonstrates how to use the Gmail API to fetch and process emails using Python.
+
+How to Run
+Follow these steps to configure OAuth for your Gmail client and run the scripts:
+
+Configure OAuth
+
+Follow the steps in the Google Developers Guide to set up OAuth for your Gmail account.
+Download the credentials.json file after completing the OAuth setup.
+Store Credentials
+
+Place the credentials.json file in the root directory of this project. This file contains your OAuth credentials and is necessary for authentication.
+Run Scripts
+
+Open a terminal or command prompt.
+
+Run the following commands in sequence:
+
+bash
+Copy code
+python3 fetch_emails.py
+python3 email_processing.py
+These scripts will fetch emails from your Gmail account and process them according to the logic defined in email_processing.py.
+
